@@ -6,7 +6,7 @@ const { width } = Dimensions.get('window');
 function MiniOfflineSign() {
   return (
     <View style={styles.offlineContainer}>
-      <Text style={styles.offlineText}>No Internet Connection</Text>
+      <Text style={styles.offlineText}>Check your Internet Connection</Text>
     </View>
   );
 }
